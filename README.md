@@ -3,6 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Simple responsive contact list app.
 
 npm install
+
 npm start
 
 demo:
