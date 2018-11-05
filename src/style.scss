@@ -1,0 +1,39 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import 'variables';
+
+.app {
+  background-color: #f2f1f2;
+
+  .more-btn {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+
+  .contact-list {
+    min-height: 100vh;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    
+    .contacts-container {      
+      display: grid;  
+      grid-gap: 10px 10px;
+      grid-template-columns: repeat(4, auto);  
+    }
+  }    
+
+  @media (max-width: $tablet-max-size) {
+    .contact-list .contacts-container {      
+      grid-template-columns: repeat(3, auto);  
+    }
+  }
+
+  @media (max-width: $mobile-max-size) {  
+    .contact-list .contacts-container {      
+      grid-template-columns: repeat(1, auto);  
+    }
+  }
+}
+
+

@@ -1,0 +1,34 @@
+@import '../variables';
+
+.navbar {
+    height: 70px;
+    background-color: #ffffff;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+
+    .title {
+      padding-left: 30px;
+      color: gray;
+      font-size: 20px;      
+    }
+
+    .search {
+      padding-right: 10px;     
+
+      input {      
+        width: 300px;      
+        outline:0;                 
+        padding:0 9px;       
+      } 
+    }
+
+    @media (max-width: $mobile-max-size) {  
+        justify-content: center !important;
+
+        .title {      
+          display: none;
+        }
+    }
+  }
