@@ -1,2 +1,9 @@
-# honybook-contact-list
-Simple contact list 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Simple responsive contact list app.
+
+npm install
+npm start
+
+demo:
+http://eladBet.github.io/honybook-contact-list/
