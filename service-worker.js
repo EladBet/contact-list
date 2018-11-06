@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/honybook-contact-list/precache-manifest.aa41b57a18c02a6ad65364dd23cd3793.js"
+  "/contact-list/precache-manifest.37b89162b708ac3ba6bd2f27bfea229c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/honybook-contact-list/index.html", {
+workbox.routing.registerNavigationRoute("/contact-list/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
