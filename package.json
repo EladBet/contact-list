@@ -2,7 +2,7 @@
   "name": "react-8vuexv",
   "version": "0.0.0",
   "private": true,
-  "homepage": "http://eladBet.github.io/honybook-contact-list",
+  "homepage": "http://eladBet.github.io/contact-list",
   "dependencies": {
     "@researchgate/react-intersection-observer": "^0.7.4",
     "bootstrap": "^4.1.3",

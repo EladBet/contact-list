@@ -8,4 +8,4 @@ npm install
 npm start
 
 demo:
-http://eladBet.github.io/honybook-contact-list/
+http://eladBet.github.io/contact-list/
